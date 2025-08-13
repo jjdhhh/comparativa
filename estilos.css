@@ -57,3 +57,21 @@ caption {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+
+  table, th, td {
+    font-size: 0.9em;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+}
